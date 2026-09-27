@@ -38,7 +38,7 @@ const login = async (req, res) => {
       return res.status(404).json({ message: 'El usuario no existe' });
     }
 
-    const isMatch = await bcrypt.compare(password, userPassword);
+    const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
       return res.status(401).json({ message: 'Contraseña incorrecta' });
     }
