@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const conectarDB = require('./config/db.js');
 const authRoutes = require('./routes/auth.routes.js');
+const motoRoutes = require('./routes/moto.routes.js');
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/motos', motoRoutes);
 
 const PORT = process.env.PORT || 5000;
 
