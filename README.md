@@ -5,7 +5,7 @@ API REST de **MotoPit**, servicio (ficticio) de mantenimiento preventivo de moto
 > Proyecto académico, trabajo final del curso de Desarrollo Web de BIT. La landing del proyecto está en [sacuervo/MotoPit](https://github.com/sacuervo/MotoPit).
 
 ## Enlaces de Entrega
-[Documento Final](https://drive.google.com/file/d/1KgCn-KrR7nERI1YHIMmX0MoEVtc9nXmy/view?usp=sharing)
+[Documento Final](https://drive.google.com/file/d/1KgCn-KrR7nERI1YHIMmX0MoEVtc9nXmy/view?usp=sharing) <b>
 [Video Entrega](https://youtu.be/uXgQIfBXcXY)
 
 ## Tecnologías
