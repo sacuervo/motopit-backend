@@ -58,7 +58,7 @@ const updateMoto = async (req, res) => {
 
     res.status(200).json(moto);
   } catch (error) {
-    res.status(500).json({ message: error.emessage });
+    res.status(500).json({ message: error.message });
   }
 };
 
