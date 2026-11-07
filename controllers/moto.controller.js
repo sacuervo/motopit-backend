@@ -49,7 +49,7 @@ const updateMoto = async (req, res) => {
     const moto = await Moto.findOneAndUpdate(
       { _id: req.params.id, user: req.user.id },
       { placa, marca, modelo, kilometraje },
-      { returnDocuemnt: 'after', runValidators: true },
+      { returnDocument: 'after', runValidators: true },
     );
 
     if (!moto) {
