@@ -5,7 +5,7 @@ const registerValidator = [
     .notEmpty()
     .withMessage('El nombre es obligatorio')
     .isLength({ min: 3 })
-    .withMessage('El nombre debe tener minimo 3 caracteres'),
+    .withMessage('El nombre debe tener mínimo 3 caracteres'),
   body('email')
     .notEmpty()
     .withMessage('El email es obligatorio')
@@ -13,7 +13,7 @@ const registerValidator = [
     .withMessage('Debes enviar un email válido'),
   body('password')
     .notEmpty()
-    .withMessage('El nombre es obligatorio')
+    .withMessage('La contraseña es obligatoria')
     .isStrongPassword({
       minLength: 8,
       minLowercase: 1,
