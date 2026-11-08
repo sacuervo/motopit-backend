@@ -2,7 +2,7 @@
 
 API REST de **MotoPit**, servicio (ficticio) de mantenimiento preventivo de motos a domicilio en Bogotá. Permite que un usuario se registre, inicie sesión y gestione sus motos. Cada usuario solo puede ver y modificar sus propias motos.
 
-> Proyecto académico, trabajo final del curso de Desarrollo Web de BIT. La landing del proyecto está en [sacuervo/MotoPit](https://github.com/sacuervo/MotoPit).
+> Proyecto académico, trabajo final del curso de Desarrollo Web de BIT. La landing del proyecto está en [sacuervo/MotoPit](https://github.com/sacuervo/MotoPit) y el frontend en Angular en [sacuervo/motopit-frontend](https://github.com/sacuervo/motopit-frontend).
 
 ## Enlaces de Entrega
 
@@ -35,12 +35,27 @@ JWT_SECRET=su_clave_secreta
 CORS_ORIGIN=http://localhost:4200
 ```
 
+| Variable | Descripción |
+| ------------- | ------------------------------------------------------------------------------------------- |
+| `PORT` | Puerto del servidor. Por defecto `5000` |
+| `MONGO_URI` | Cadena de conexión a MongoDB (Atlas o local, ej. `mongodb://127.0.0.1:27017/motopit`) |
+| `JWT_SECRET` | Clave con la que se firman y verifican los tokens. Usa una cadena larga y privada |
+| `CORS_ORIGIN` | Origen al que se le permite consumir la API. Por defecto `http://localhost:4200` (Angular) |
+
+> El archivo `.env` no se sube al repositorio; solo `.env.example`.
+
 ## Ejecución
 
 ```bash
 npm run dev   # desarrollo, con nodemon
 npm start     # producción
 ```
+
+La API queda disponible en `http://localhost:5000/api`.
+
+> **Importante:** el [frontend](https://github.com/sacuervo/motopit-frontend) espera la API en el puerto **5000** (`src/app/utiles/api.ts`). Si cambias `PORT`, actualiza también esa URL. Si el frontend corre en otro origen distinto a `http://localhost:4200`, ajusta `CORS_ORIGIN`.
+
+Para probar el proyecto completo: arranca primero este backend y luego el frontend con `ng serve`.
 
 ## Endpoints
 
