@@ -33,14 +33,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "register"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "register"],
               "raw": "{{baseUrl}}/api/auth/register"
             }
           },
@@ -61,14 +55,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "register"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "register"],
               "raw": "{{baseUrl}}/api/auth/register"
             }
           },
@@ -89,14 +77,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "register"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "register"],
               "raw": "{{baseUrl}}/api/auth/register"
             }
           },
@@ -138,14 +120,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "login"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"],
               "raw": "{{baseUrl}}/api/auth/login"
             }
           },
@@ -166,14 +142,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "login"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"],
               "raw": "{{baseUrl}}/api/auth/login"
             }
           },
@@ -194,14 +164,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "login"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"],
               "raw": "{{baseUrl}}/api/auth/login"
             }
           },
@@ -222,14 +186,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "auth",
-                "login"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"],
               "raw": "{{baseUrl}}/api/auth/login"
             }
           },
@@ -275,13 +233,8 @@
             ],
             "method": "GET",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos"],
               "raw": "{{baseUrl}}/api/motos"
             }
           },
@@ -313,13 +266,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos"],
               "raw": "{{baseUrl}}/api/motos"
             }
           },
@@ -340,13 +288,8 @@
             "header": [],
             "method": "POST",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos"],
               "raw": "{{baseUrl}}/api/motos"
             }
           },
@@ -358,13 +301,8 @@
             "header": [],
             "method": "GET",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos"],
               "raw": "{{baseUrl}}/api/motos"
             }
           },
@@ -387,14 +325,8 @@
             "header": [],
             "method": "GET",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos",
-                "64b000000000000000000000"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos", "64b000000000000000000000"],
               "raw": "{{baseUrl}}/api/motos/64b000000000000000000000"
             }
           },
@@ -406,14 +338,8 @@
             "header": [],
             "method": "GET",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos",
-                "123"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos", "123"],
               "raw": "{{baseUrl}}/api/motos/123"
             }
           },
@@ -434,14 +360,8 @@
             "header": [],
             "method": "PUT",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos",
-                "{{motoId}}"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos", "{{motoId}}"],
               "raw": "{{baseUrl}}/api/motos/{{motoId}}"
             }
           },
@@ -453,14 +373,8 @@
             "header": [],
             "method": "DELETE",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos",
-                "{{motoId}}"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos", "{{motoId}}"],
               "raw": "{{baseUrl}}/api/motos/{{motoId}}"
             }
           },
@@ -472,14 +386,8 @@
             "header": [],
             "method": "DELETE",
             "url": {
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "api",
-                "motos",
-                "{{motoId}}"
-              ],
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "motos", "{{motoId}}"],
               "raw": "{{baseUrl}}/api/motos/{{motoId}}"
             }
           },
