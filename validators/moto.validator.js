@@ -1,4 +1,4 @@
-const { body } = require('express-validator');
+const { body, param } = require('express-validator');
 
 const motoValidator = [
   body('placa')
@@ -15,4 +15,8 @@ const motoValidator = [
     .withMessage('El kilometraje debe ser un número entero mayor o igual a 0'),
 ];
 
-module.exports = { motoValidator };
+const idValidator = [
+  param('id').isMongoId().withMessage('El id de la moto no es válido'),
+];
+
+module.exports = { motoValidator, idValidator };
